@@ -97,12 +97,12 @@ bool isPresentInBox(int sudoku[N][N], int boxStartRow, int boxStartColumn, int n
 bool isValid(int sudoku[N][N], int row, int column, int number)
 {
     //checks if number is not already placed in current row, column and current 3X3 box
-    return (!isPresentInRow(sudoku, row, number) && !isPresentInCoumn(sudoku, column, number) && !isPresentInBox(sudoku, row - row % 3, column - column % 3, number) && sudoku[row][column] == UNASSIGNED);
+    return (!isPresentInRow(sudoku, row, number) && !isPresentInColumn(sudoku, column, number) && !isPresentInBox(sudoku, row - row % 3, column - column % 3, number) && sudoku[row][column] == UNASSIGNED);
 }
 
 void printSudoku(int sudoku[N][N])
 {
-    cout<"Solved Sudoku is given as:\n";
+    cout<<"Solved Sudoku is given as:\n";
     for(int row = 0; row < N; row++)
     {
         for(int column = 0; column < N; column++)

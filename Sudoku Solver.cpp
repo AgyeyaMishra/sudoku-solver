@@ -113,3 +113,25 @@ void printSudoku(int sudoku[N][N])
     }
 }
 
+int main()
+{
+    int sudoku[N][N];
+    
+    for(int  i = 0; i < 9; i++)
+    {
+        cout<<"Enter space separated elements of row "<<i;
+        for(int j = 0; j < N; j++)
+        {
+           cin>>sudoku[i][j];
+        }
+    }
+    
+    if(solveSudoku(sudoku) == true)
+        printSudoku(sudoku);
+        
+    else
+        cout<<"No solution exists.";
+        
+    return 0;
+}
+

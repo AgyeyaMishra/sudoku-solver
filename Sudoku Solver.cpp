@@ -107,7 +107,7 @@ void printSudoku(int sudoku[N][N])
     {
         for(int column = 0; column < N; column++)
         {
-            cout<<sudoku[row][coumn]<<" ";]
+            cout<<sudoku[row][column]<<" ";
         }
         cout<<endl;
     }

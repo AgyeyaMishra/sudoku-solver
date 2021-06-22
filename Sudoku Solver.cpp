@@ -132,7 +132,7 @@ int main()
     {
         for(int j = 0; j < N; j++)
         {
-            cout<<sudoku[i][j];
+            cout<<sudoku[i][j]<<" ";
         }
         cout<<endl;
     }

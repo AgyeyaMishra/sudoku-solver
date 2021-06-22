@@ -127,7 +127,7 @@ int main()
         }
     }
     
-    cout<<"Entered sudoku is:\n";
+    cout<<"\nEntered sudoku is:\n";
     for(int i = 0; i < N; i++)
     {
         for(int j = 0; j < N; j++)

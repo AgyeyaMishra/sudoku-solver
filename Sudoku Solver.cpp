@@ -103,7 +103,7 @@ bool isValid(int sudoku[N][N], int row, int column, int number)
 
 void printSudoku(int sudoku[N][N])
 {
-    cout<<"Solved Sudoku is given as:\n";
+    cout<<"\nSolved Sudoku is given as:\n";
     for(int row = 0; row < N; row++)
     {
         for(int column = 0; column < N; column++)
@@ -120,7 +120,7 @@ int main()
     
     for(int  i = 0; i < 9; i++)
     {
-        cout<<"Enter space separated elements of row "<<i;
+        cout<<"Enter space separated elements of row "<<i<<" : ";
         for(int j = 0; j < N; j++)
         {
            cin>>sudoku[i][j];

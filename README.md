@@ -24,7 +24,7 @@ Given an unsolved sudoku puzzle, we have to generate all possible solutions of t
 
 ### Solution:
 
-So given an unsolved sudoku, we have to generate all the possible solutions. The language of the problem statement “all the possible solutions” is generally a hint towards applying backtracking algorithm. The solution has been listed in detail below.
+The language of the problem statement “all the possible solutions” is generally a hint towards applying backtracking algorithm. The solution has been listed in detail below.
 
 ### Approach:
 

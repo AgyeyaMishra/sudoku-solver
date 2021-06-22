@@ -1,6 +1,7 @@
 //Sudoku Solver in C++ using Backtrackig algorithm
 #include <iostream>
-#include <stdio>
+
+using namespace std;
 
 #define UNASSIGNED 0
 

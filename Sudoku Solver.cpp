@@ -118,13 +118,23 @@ int main()
 {
     int sudoku[N][N];
     
-    for(int  i = 0; i < 9; i++)
+    for(int  i = 0; i < N; i++)
     {
         cout<<"Enter space separated elements of row "<<i<<" : ";
         for(int j = 0; j < N; j++)
         {
            cin>>sudoku[i][j];
         }
+    }
+    
+    cout<<"Entered sudoku is:\n";
+    for(int i = 0; i < N; i++)
+    {
+        for(int j = 0; j < N; j++)
+        {
+            cout<<sudoku[i][j];
+        }
+        cout<<endl;
     }
     
     if(solveSudoku(sudoku) == true)

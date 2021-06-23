@@ -6,6 +6,8 @@
 
 -	To solve sudoku one doesn't require the knowledge of mathematics but require the logic and reasoning. Solving Sudoku Puzzles daily helps with your brain. It improves the concentration and logical thinking. One can look for sudoku puzzles given in Newspapers or can play them online provided by many websites. 
 
+![Unsolved sudoku](https://user-images.githubusercontent.com/53916781/123075951-4f60d280-d436-11eb-991b-fae19a088234.gif)
+
 ## About:
 
 This script is a sudoku solver that can solve almost any sudoku puzzle by implementing the **Backtracking Algorithm** which is written in the ```C++``` language.

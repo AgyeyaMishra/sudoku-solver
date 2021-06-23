@@ -48,6 +48,30 @@ int sudoku[N][N];
         }
     }
 ```   
+
+![Input](https://user-images.githubusercontent.com/53916781/123072386-1ecb6980-d433-11eb-9c8e-af675ee57481.PNG)
+
    
 ### Functions:
 
+1. ```findEmptySpace()```: This function searches the sudoku grid to find an entry that is still unassigned. If found, the reference parameters row, column will be set the location that is unassigned, and true is returned. If no unassigned entries remain, false is returned.
+
+2. ```isValid()```: This functon returns a boolean which indicates whether it will be legal to assign number to the given row, column location.
+
+3. ```solveSudoku()```: This function takes a partially filled-in sudoku grid and attempts to assign values to all unassigned locations in such a way to meet the requirements for Sudoku solution (non-duplication or no collision across rows, columns, and boxes).
+
+4. ```isPresentInRow()```: This function returns a boolean which indicates whether an assigned entry in the specified row matches the given number. 
+
+5. ```isPresentInColumn()```: This function returns a boolean which indicates whether an assigned entry in the specified column matches the given number.
+
+6. ```isPresentInBox()```: This function returns a boolean which indicates whether an assigned entry within the specified 3x3 box matches the given number.
+
+7. ```printSudoku()```: This function is a utility function which prints the solved sudoku.
+
+8. ```main()```: This is the main driver function. This function takes the partially-filled sudoku board as input from the user and calls the ```solveSudoku()``` as well as ```printSudoku()``` with the sudoku board as the argument. In case of no solution, it prints "**No solution exists.**".
+
+### Output:
+
+The output prints all the possible solutions of the given sudoku. In our case there is only possible solution for the given input and it is shown below.
+
+![Output](https://user-images.githubusercontent.com/53916781/123075380-d19cc700-d435-11eb-9840-45f943378854.PNG)

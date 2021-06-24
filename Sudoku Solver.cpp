@@ -1,3 +1,10 @@
+//Author:
+//Agyeya Mishra
+//Department of Civil Engineering
+//Delhi Technological University (formerly, Delhi College of Engineering)
+//New Delhi, India
+
+
 //Sudoku Solver in C++ using Backtrackig algorithm
 #include <iostream>
 

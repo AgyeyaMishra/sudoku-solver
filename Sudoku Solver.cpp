@@ -5,6 +5,10 @@
 //New Delhi, India
 
 
+//Time Complexity: O(9^(N*N))
+//Space Complexity: O(N*N)
+
+
 //Sudoku Solver in C++ using Backtrackig algorithm
 #include <iostream>
 
